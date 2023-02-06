@@ -18,8 +18,8 @@ body {
   border-radius: 5px;
   border: 0;
   font-weight: 400;
-font-size: 20px;
-color: #FFFFFF;
+  font-size: 20px;
+  color: #ffffff;
 }
 /* top banner styles */
 .top-banner {
@@ -51,5 +51,79 @@ p {
 }
 /* top banner end */
 /* blog styles start */
-
+aside {
+  width: 312px;
+  height: 312px;
+  background: #161616;
+  border-radius: 10px;
+  display: flex;
+  gap: 5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blogs {
+  display: flex;
+  gap: 20px;
+}
+.blogs button {
+  width: 256px;
+  height: 64px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 0;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+.all-blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.single-blog {
+  width: 312px;
+  height: 362px;
+  border: 1px solid rgb(196, 194, 194);
+  border-radius: 10px;
+}
+.single-blog .blog-thumbnail img {
+  width: 100%;
+}
+.blog-detail {
+  padding: 10px;
+}
+.blog-detail button {
+  width: 100px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 4px 16px;
+}
+.blog-detail p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+.blog-info {
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+}
+.duration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* blog styles end */
