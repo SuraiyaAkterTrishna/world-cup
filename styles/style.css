@@ -113,7 +113,7 @@ aside {
 .blog-info {
   display: flex;
   justify-content: space-between;
-  
+
   align-items: center;
 }
 .duration {
@@ -127,3 +127,35 @@ aside {
   justify-content: center;
 }
 /* blog styles end */
+/* footer styles */
+footer {
+  height: 444px;
+  background: #161616;
+  padding: 0px 140px;
+}
+.footer-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 130px;
+}
+hr {
+  width: 1321px;
+  height: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 50px;
+}
+.footer-items {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #b9b9b9;
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+}
