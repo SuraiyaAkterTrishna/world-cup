@@ -76,7 +76,7 @@ aside {
   font-size: 20px;
   color: #000000;
 }
-.blog button{
+.blog button {
   background: #dd0000;
   color: #ffffff;
 }
@@ -164,3 +164,90 @@ hr {
   margin: 0 auto;
 }
 /* footer end */
+/* media query */
+/* mobile devices */
+@media only screen and (max-width: 688px) {
+}
+/* tablet devices */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .container {
+    width: 80%;
+  }
+  .banner-title {
+    font-size: 25px;
+    line-height: 50px;
+  }
+  .banner-detail {
+    width: 316px;
+    height: 48px;
+  }
+  .banner-detail p {
+    font-size: 14px;
+    line-height: 24px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .banner-thumbnail img {
+    width: 100%;
+  }
+  .primary-btn {
+    width: 161px;
+    height: 48px;
+  }
+}
+
+/* @media only screen and (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+  .top-banner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .top-banner .banner-thumbnail img {
+    width: 100%;
+    background: none;
+  }
+  .brand {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+  .brand img {
+    margin: 10px auto;
+  }
+  .card-collection {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* Tablet Devices
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .container {
+    width: 90%;
+    padding: 10px;
+  }
+  .top-banner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .brand, .card-collection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+  .feature {
+    display: flex;
+    flex-direction: column;
+  }
+}
+ */
