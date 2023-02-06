@@ -66,6 +66,13 @@ aside {
   display: flex;
   gap: 20px;
 }
+.upcoming-match button a {
+  text-decoration: none;
+  color: #000000;
+}
+.upcoming-match button:hover, .all-group button:hover{
+  background: #efb8b8;
+}
 .blogs button {
   width: 256px;
   height: 64px;
